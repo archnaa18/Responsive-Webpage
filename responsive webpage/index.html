@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <h1 class="logo"></h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Home</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="image/menubutton.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <!-- front page -->
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- ##events## -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcomming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image/tony-litvyak-35D24fs6WkY-unsplash.jpg" alt="">
+                <h4>Nature Love Festival</h4>
+                <p>Nature is the best place to learn and enjoy both.</p>
+                <a href="#" class="ctn">Learn More </a>
+            </div>
+
+            <div class="col">
+                <img src="image/hector-john-periquin-VUk3NX9uLsg-unsplash.jpg" alt="">
+                <h4>Forest Camping</h4>
+                <p>Nature is the best place to learn and enjoy both.</p>
+                <a href="#" class="ctn">Learn More </a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, totam? Quidem, mollitia? Nobis
+                laboriosam voluptas, rerum culpa nulla quas assumenda?</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND EVENTS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis soluta impedit numquam quis
+                    temporibus nisi labore architecto?</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-galary">
+                    <img src="image/ignacio-campo-tA9FfKRaH-c-unsplash.jpg" alt="">
+                    <img src="image/joel-de-vriend-6iGvBaZSwec-unsplash.jpg" alt="">
+                    <img src="image/rami-al-zayat-w33-zg-dNL4-unsplash.jpg" alt="">
+                    <img src="image/fabian-irsara-67l-QujB14w-unsplash.jpg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Fifth Avenue,NY 10160,New York,USA| Phone:800-123-456|Email:contact@example.com</p>
+        <p>Copyright@2020 Outdoor Adventure</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
